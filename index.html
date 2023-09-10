@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: antiquewhite;
+        }
+        .gradus{
+            background-color: darkseagreen;
+            padding: 15px;
+            border-radius: 20px;
+        }
+        .gradus input{
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        h1{
+            text-align: center;
+            color: antiquewhite;
+        }
+        p{
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="gradus">
+        <h1>Celsius to Franheit</h1>
+        <input type="number">
+        <button onclick="convert()">Click here</button>
+        <p>Franheit:</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
